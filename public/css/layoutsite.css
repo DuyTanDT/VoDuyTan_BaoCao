@@ -1,0 +1,215 @@
+.bg-mainmenu {
+    background-color: rgb(48, 171, 0);
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500;1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ff0000e5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+    color: rgb(0, 0, 0);
+}
+
+#wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.headline {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #111;
+    padding: 20px 200px;
+    text-transform: uppercase;
+    border: 4px solid rgba(0, 0, 0, 0.543);
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-radius: 50%;
+
+}
+
+ul.products {
+
+
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.products li {
+
+    border: 3px solid rgba(255, 0, 0, 0.568);
+    flex-basis: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+ul.products li img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul.products li .product-top {
+    position: relative;
+    overflow: hidden;
+}
+
+ul.products li .product-top .product-thumb {
+    display: block;
+}
+
+ul.products li:hover .product-top .product-thumb img {
+    filter: opacity(70%);
+
+}
+
+ul.products li .product-top .product-thumb img {
+    display: block;
+}
+
+ul.products li .product-top a.buy-now {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: rgb(250, 37, 37);
+    color: #ffff;
+    padding: 8px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: -36px;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+}
+
+ul.products li:hover a.buy-now {
+    bottom: 0px;
+
+}
+
+ul.products li .product-infor {
+    padding: 10px 0px;
+}
+
+ul.products li .product-infor a {
+    display: block;
+    text-decoration: none;
+}
+
+ul.products li .product-infor a.product-cat {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgba(71, 46, 46, 0.58);
+    padding: 3px 0px;
+
+}
+
+ul.products li .product-infor a.product-name {
+    color: rgb(0, 0, 0);
+    padding: 3px 0px;
+}
+
+ul.products li .product-infor .product-pride {
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+    padding: 2px 0px
+}
+
+.container-col {
+    background-color: rgba(65, 22, 22, 0.886);
+    color: rgb(84, 167, 124);
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 11px 11px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+/**-- chuyển trang--**/
+.page-btn {
+    font-size: 12px;
+    margin: 0 auto 50px;
+}
+
+.page-btn span {
+    border-radius: 20px;
+    display: inline-block;
+    border: solid black;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+
+}
+
+.page-btn span:hover {
+
+    background: #80571e;
+    color: rgb(0, 0, 0);
+
+}
+
+.single-product select {
+
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: rgb(204, 15, 62);
+    color: #000000;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header a {
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+h4 {
+    color: red;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: #000000;
+    padding-top: 10px;
+    padding-left: 500px;
+}
+
+.run a {
+    text-transform: uppercase;
+    background-color: red;
+
+    text-decoration: none;
+}
+
+.tet {
+    color: yellow;
+}
